@@ -1,0 +1,21 @@
+{
+  "_Comment": {
+    "_Name": "Just a Reference to the old system naming. Changing does nothing.",
+    "_Is Enabled": "Is chicken enabled?",
+    "_Lay Item": "Item the chicken will Lay.               modid:itemid:metadata:amount #example: minecraft:log:2:3",
+    "_Drop Item": "Item the chicken drops on death.        modid:itemid:metadata:amount #example: minecraft:bone",
+    "_Spawn Type": "Chicken spawn type, can be: NORMAL,SNOW,NONE,HELL",
+    "_Parent 1": "First parent, empty if it cant be breed. modid:chickenid #example: chickens:waterchicken",
+    "_Parent 2": "Second parent, empty if it cant be breed. "
+  },
+  "morechickens:xpchicken": {
+    "Name": "xpChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "morechickens:solidxp",
+    "Drop Item": "morechickens:solidxp",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:emeraldchicken",
+    "Parent 2": "chickens:greenchicken"
+  }
+}

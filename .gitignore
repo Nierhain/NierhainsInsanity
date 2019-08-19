@@ -1,0 +1,24 @@
+vscode
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+
+# Optional: Generic Modpack Ignores
+**/*.log
+/coremods
+/libraries
+/logs
+/screenshots
+/server-resource-packs
+/texturepacks
+/.mixin.out
+/saves
+/downloads
+/resourcepacks
+.curseclient
+options.txt
+crafttweaker.log
+ModUpdaterPack.json

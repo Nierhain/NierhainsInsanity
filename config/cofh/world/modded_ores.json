@@ -1,0 +1,243 @@
+{
+    "dependencies" : [
+        "mekanism",
+        "abyssalcraft",
+        "mysticalagriculture",
+        "bigreactors",
+        "actuallyadditions",
+        "thaumcraft",
+        "draconicevolution"
+    ],
+    "populate": {
+        "osmium": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mekanism:oreblock"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 48
+			},
+			"cluster-count": 1,
+			"min-height": 4,
+			"max-height": 58,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "nitre": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "abyssalcraft:nitreore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 4,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "prosperity": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mysticalagriculture:prosperity_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"min-height": 12,
+			"max-height": 46,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "inferium": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mysticalagriculture:inferium_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"min-height": 18,
+			"max-height": 46,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "blackquartz": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "actuallyadditions:block_misc:3"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"min-height": 3,
+			"max-height": 48,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "yellorium": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "bigreactors:oreyellorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 28
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "amber": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thaumcraft:ore_amber"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"min-height": 58,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "cinnabar": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thaumcraft:ore_cinnabar"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 4,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },  
+        "nquartz": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thaumcraft:ore_quartz"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 4,
+			"max-height": 58,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "draconium": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "draconicevolution:draconium_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 4,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        }
+    }
+}

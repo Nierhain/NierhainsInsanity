@@ -1,0 +1,7 @@
+{
+    "packAuthor": "Nierhain",
+    "minecraftVersion": "1.12.2",
+    "modLoader": "forge",
+    "modLoaderVersion": "14.23.5.2815",
+    "includes": ["config","resources", "scripts"]
+}
