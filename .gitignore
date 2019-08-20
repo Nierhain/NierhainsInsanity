@@ -9,6 +9,7 @@ vscode
 # Optional: Generic Modpack Ignores
 **/*.log
 /coremods
+/crash-reports
 /libraries
 /logs
 /screenshots
