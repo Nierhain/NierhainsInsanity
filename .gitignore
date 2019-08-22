@@ -1,4 +1,4 @@
-vscode
+.vscode
 
 # Instance Sync
 **/*.jar
@@ -6,20 +6,42 @@ vscode
 **/*.jar.disabled
 **/*.jar.meta
 
-# Optional: Generic Modpack Ignores
-**/*.log
-/coremods
-/crash-reports
-/libraries
-/logs
-/screenshots
-/server-resource-packs
-/texturepacks
-/.mixin.out
-/saves
-/downloads
-/resourcepacks
+# Minecraft folder
+coremods
+crash-reports
+libraries
+logs
+screenshots
+server-resource-packs
+texturepacks
+.mixin.out
+saves
+downloads
+resourcepacks
+woot
+valkyrielib
+shaderpacks
+mputils
+Mojang**
+local
+backups
+astralsorcery
+fonts
+journeymap/*
+
+
+# Generic files
 .curseclient
 options.txt
 crafttweaker.log
 ModUpdaterPack.json
+usercache.json
+usernamecache.json
+optionsof.txt
+optionsshaders.txt
+patchouli_data.json
+textures_0.png
+OpenComputersMod**
+knownkeys.txt
+BotaniaVars.dat
+.ReAuth.cfg
