@@ -108,6 +108,12 @@
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

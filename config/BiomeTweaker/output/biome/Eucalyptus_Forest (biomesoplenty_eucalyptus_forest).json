@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "DENSE",
+    "JUNGLE",
     "LUSH",
+    "FOREST",
     "WET",
-    "JUNGLE"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -57,6 +57,12 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -119,6 +125,12 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

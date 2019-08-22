@@ -21,11 +21,11 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "RARE",
-    "CONIFEROUS",
-    "FOREST",
     "MOUNTAIN",
-    "COLD"
+    "COLD",
+    "FOREST",
+    "RARE",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -125,6 +125,12 @@
       "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
       "Weight": 10,
       "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
       "Max Group Count": 4
     }
   ],

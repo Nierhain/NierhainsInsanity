@@ -1,6 +1,6 @@
 
 {
-  "ID": 141,
+  "ID": 192,
   "Name": "Deep Waters",
   "Resource Location": "thebetweenlands:deep_waters",
   "Class": "thebetweenlands.common.world.biome.BiomeDeepWaters",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "WATER"
+    "WATER",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

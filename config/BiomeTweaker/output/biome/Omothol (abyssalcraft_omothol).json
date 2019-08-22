@@ -1,6 +1,6 @@
 
 {
-  "ID": 135,
+  "ID": 174,
   "Name": "Omothol",
   "Resource Location": "abyssalcraft:omothol",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenOmothol",
@@ -23,7 +23,14 @@
     "DEAD"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityRemnant",

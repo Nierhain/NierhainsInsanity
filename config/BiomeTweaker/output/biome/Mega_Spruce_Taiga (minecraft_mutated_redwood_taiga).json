@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
+    "DENSE",
     "FOREST",
-    "DENSE"
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -61,6 +61,12 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -111,6 +117,18 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityShubOffspring",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

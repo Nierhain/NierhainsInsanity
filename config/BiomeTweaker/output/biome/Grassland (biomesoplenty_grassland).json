@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "HILLS",
+    "PLAINS",
     "WET"
   ],
   "BiomeManager Entries": {},
@@ -61,6 +61,12 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -117,6 +123,12 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

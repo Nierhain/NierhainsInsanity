@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
+    "SPOOKY",
     "DENSE",
-    "SPOOKY"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -53,6 +53,12 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -105,6 +111,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilpig",
       "Weight": 20,
       "Min Group Count": 1,
@@ -129,10 +141,22 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityShubOffspring",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

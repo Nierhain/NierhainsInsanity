@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DRY",
     "SNOWY",
-    "FOREST",
-    "SPARSE",
+    "DRY",
     "MOUNTAIN",
-    "COLD"
+    "COLD",
+    "FOREST",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -86,15 +86,9 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
       "Max Group Count": 4
     }
   ],

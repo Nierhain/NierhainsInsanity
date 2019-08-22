@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SNOWY",
-    "DEAD",
-    "SPARSE",
     "WASTELAND",
+    "COLD",
     "WET",
-    "COLD"
+    "DEAD",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -34,6 +34,12 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -86,15 +92,9 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
       "Max Group Count": 4
     }
   ],

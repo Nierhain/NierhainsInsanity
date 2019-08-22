@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 152,
   "Name": "Darklands Forest",
   "Resource Location": "abyssalcraft:darklands_forest",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenDarklandsForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "SPOOKY"
+    "SPOOKY",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -52,6 +52,12 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -134,6 +140,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityShubOffspring",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
       "Weight": 40,
       "Min Group Count": 1,
@@ -144,6 +156,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [
